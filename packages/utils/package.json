@@ -1,0 +1,16 @@
+{
+  "private":true,
+  "name": "@fcc-ui/utils",
+  "description": "",
+  "main": "index.ts",
+  "peerDependencies": {
+    "vue":"^3.5.12"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

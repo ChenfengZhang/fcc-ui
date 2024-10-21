@@ -1,0 +1,4 @@
+{
+    "root": true,
+    "extends": ["@vision-ui-vue/eslint-config"]
+  }
