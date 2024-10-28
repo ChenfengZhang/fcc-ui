@@ -1,11 +1,22 @@
 <script setup lang="ts">
 import VButton from '@fcc-ui/components/button'
-import '@fcc-ui/theme-chalk/src/index.scss'
+import ZIcon from '@fcc-ui/components/icon'
+import { AccessibilityOutline } from "@vicons/ionicons5";
+import { useNamespace } from '@fcc-ui/hooks'
+const bem = useNamespace('button')
+console.log(bem.b());
+console.log(bem.e("wrapper"));
+console.log(bem.m("disabled"));
+console.log(bem.is("checked", true));
+console.log(bem.bem("box", "element", "disabled"));
 </script>
 
 <template>
    <div>
     <v-button></v-button>
+    <ZIcon>
+      <AccessibilityOutline></AccessibilityOutline>
+    </ZIcon>
   </div>
 </template>
 
