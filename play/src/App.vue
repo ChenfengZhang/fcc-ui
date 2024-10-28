@@ -2,13 +2,6 @@
 import VButton from '@fcc-ui/components/button'
 import ZIcon from '@fcc-ui/components/icon'
 import { AccessibilityOutline } from "@vicons/ionicons5";
-import { useNamespace } from '@fcc-ui/hooks'
-const bem = useNamespace('button')
-console.log(bem.b());
-console.log(bem.e("wrapper"));
-console.log(bem.m("disabled"));
-console.log(bem.is("checked", true));
-console.log(bem.bem("box", "element", "disabled"));
 </script>
 
 <template>
